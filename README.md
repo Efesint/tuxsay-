@@ -3,7 +3,7 @@ just for fun, nevermind.
 ## installation
 1.clone the repository
 ~~~
-https://github.com/Efesint/tuxsay
+git clone https://github.com/Efesint/tuxsay-
 ~~~
 2. install ruby
 ~~~
