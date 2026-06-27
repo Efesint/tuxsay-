@@ -24,7 +24,7 @@
 ## installation
 1.clone the repository
 ~~~
-git clone https://github.com/Efesint/chudsay
+git clone https://github.com/Efesint/chudsay && cd chudsay
 ~~~
 2. install ruby
 ~~~
