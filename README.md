@@ -22,6 +22,7 @@
 ⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣭⣝⠻⠟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ~~~
 ## installation
+(it's only manually installation 
 1.clone the repository
 ~~~
 git clone https://github.com/Efesint/chudsay && cd chudsay
@@ -30,16 +31,17 @@ git clone https://github.com/Efesint/chudsay && cd chudsay
 ~~~
 sudo apt install ruby
 ~~~
-or
+or use your package manager
+3.Rename the file
 ~~~
-sudo pacman -S ruby
+mv chudsay.rb chudsay
 ~~~
-or
+4. Add chudsay executable
 ~~~
-sudo emerge -av ruby
+chmod +x chudsay.rb
 ~~~
-3. enjoy.
+5. Add chudsay to the path
 ~~~
-ruby chudsay.rb
+sudo cp chudsay /usr/local/bin/
 ~~~
-## install.sh писать не буду, устанавливайте мануально.
+4.
