@@ -42,3 +42,4 @@ sudo emerge -av ruby
 ~~~
 ruby chudsay.rb
 ~~~
+## install.sh писать не буду, устанавливайте мануально.
