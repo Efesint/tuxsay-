@@ -2,8 +2,12 @@
 The script uses ASCII art created by Przemek Borys.
 =end
 
-puts "It's chudsay 2.0. Please write something"
+puts "It's tuxsays 1.0. Please write something"
 text = gets.chomp
+
+if text = " "
+   text = "Billions must DIE"
+end
 
 b = "_" * (text.length + 2)
 u = "-" * (text.length + 2) 
